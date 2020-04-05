@@ -31,9 +31,7 @@ $color-palate: (
 ) !default;
 
 @function color($key) {
-
   $value: map-get($color-palate, $key);
-
   @if ($value) {
     @return var(--$key, $value);
   } @else {
