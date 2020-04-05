@@ -1,0 +1,22 @@
+$measure-unit: px;
+
+$spacing-sizes: (
+  micro: 4,
+  tiny: 8,
+  base: 16,
+  medium: 24,
+  loose: 32,
+  large: 48,
+  grand: 64,
+  giant: 80
+) !default;
+
+@function space($key: base) {
+  $value: map-get($spacing-sizes, $key);
+  @if ($value) {
+    @return var(--$key, $value + $measure-unit)
+  } @else {
+    $error: 'Given type is `#{$key}` please use `#{map-keys($spacing-sizes)}`';
+    @error $error;
+  }
+}

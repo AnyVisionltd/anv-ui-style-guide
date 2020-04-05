@@ -1,0 +1,22 @@
+$measure-unit: px;
+$border-radius-sizes: (
+  tidy: 4,
+  base: 8,
+  round: 16,
+  curvy: 24,
+) !default;
+
+@function radius($key: base) {
+  @if($key == circle) {
+    @return 50%;
+  }
+  $value: map-get($border-radius-sizes, $key);
+  @if ($value) {
+    @return var(--$key, $value + $measure-unit)
+  } @else {
+    $error: 'Given type is `#{$key}` please use `#{map-keys($border-radius-sizes)}, circle`';
+    @error $error;
+  }
+}
+
+
