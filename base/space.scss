@@ -1,0 +1,22 @@
+$spacing-measure: px;
+
+$spacing-sizes: (
+  micro: var(--micro, 4 + $spacing-measure),
+  tiny: var(--micro, 8 + $spacing-measure),
+  base: var(--micro, 16 + $spacing-measure),
+  medium: var(--micro, 24 + $spacing-measure),
+  loose: var(--micro, 32 + $spacing-measure),
+  large: var(--micro, 48 + $spacing-measure),
+  grand: var(--micro, 64 + $spacing-measure),
+  giant: var(--micro, 80 + $spacing-measure)
+) !default;
+
+@function space($key: base) {
+  $space: map-get($spacing-sizes, $key);
+  @if($space) {
+    @return $space;
+  } @else {
+    $error: 'Given type is `#{$key}` please use `#{map-keys($spacing-sizes)}`';
+    @error $error;
+  }
+}

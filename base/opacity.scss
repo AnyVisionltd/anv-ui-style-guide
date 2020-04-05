@@ -1,0 +1,13 @@
+$opacity-types: (
+        todo: var(--todo, 0.1),
+) !default;
+
+@function opacity($key: base) {
+  $opacity: map-get($opacity-types, $key);
+  @if($opacity) {
+    @return $opacity
+  } @else {
+    $error: 'Given type is `#{$key}` please use `#{map-keys($opacity-types)}`';
+    @error $error;
+  }
+}

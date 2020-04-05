@@ -1,0 +1,19 @@
+$border-radius-sizes: (
+  tidy: var(--tidy, 4px),
+  base: var(--base, 8px),
+  round: var(--round, 16px),
+  curvy: var(--curvy, 24px),
+  circle: 50%
+) !default;
+
+@function radius($key: base) {
+  $radius: map-get($border-radius-sizes, $key);
+  @if($radius) {
+    @return $radius
+  } @else {
+    $error: 'Given type is `#{$key}` please use `#{map-keys($border-radius-sizes)}`';
+    @error $error;
+  }
+}
+
+
