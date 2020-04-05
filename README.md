@@ -24,6 +24,8 @@ npm i @anyvision/anv-ui-style-guide --save
 
 ## Override & Theme
 You have the ability to change the default values by set css variables.
+
+### Colors
 ``` scss
 :root {
   --secondary: #02234b;
@@ -39,6 +41,22 @@ You have the ability to change the default values by set css variables.
   --success: #00d0a0;
   --alert: #ffc400;
   --error: #d50000;
+  --ac-sirius: #55efc4;
+  --ac-canopus: #81ecec;
+  --ac-vega: #74b9ff;
+  --ac-rigel: #a29bfe;
+  --ac-earth: #00b894;
+  --ac-achernar: #00cec9;
+  --ac-betelgeuse: #0984e3;
+  --ac-agena: #6c5ce7;
+  --ac-spica: #fd79a8;
+  --ac-aldebaran: #ff7675;
+  --ac-altair: #fab1a0;
+  --ac-procyon: #ffeaa7;
+  --ac-mimosa: #e84393;
+  --ac-pollux: #d63031;
+  --ac-antares: #e17055;
+  --ac-sun: #fdcb6e;
 }
 
 ```
