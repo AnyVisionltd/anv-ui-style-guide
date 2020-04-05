@@ -12,8 +12,5 @@
   "bugs": {
     "url": "https://github.com/AnyVisionltd/anv-ui-style-guide/issues"
   },
-  "homepage": "https://github.com/AnyVisionltd/anv-ui-style-guide#readme",
-  "scripts": {
-    "test": ""
-  }
+  "homepage": "https://github.com/AnyVisionltd/anv-ui-style-guide#readme"
 }
