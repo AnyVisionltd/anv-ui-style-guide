@@ -7,7 +7,7 @@ AnyVision theme and style guide library.
 Use the package manager npm.
 
 ```
-npm i @anyvision/anv-ui-style-guide --save
+npm i @anyvision/style-guide --save
 
 ```
 
