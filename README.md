@@ -14,7 +14,7 @@ npm i @anyvision/style-guide --save
 ## Usage
 
 ```scss
-@import '~anv-ui-style-guide';
+@import '~@anyvision/style-guide';
 
 .header { 
     background-color: color(trueblack);
