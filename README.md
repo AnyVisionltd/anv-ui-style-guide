@@ -75,6 +75,17 @@ You have the ability to change the default values by set css variables.
 }
 ```
 
+### Opacity
+```scss 
+ :root {
+  --high: 1;
+  --medium: 0.6;
+  --disabled: 0.34;
+  --divider: 0.12;
+  --ghost: 0.05;
+}
+```
+
 ## Available functions
 
 ### radius()
@@ -118,6 +129,16 @@ You have the ability to change the default values by set css variables.
   ac-pollux,
   ac-antares,
   ac-sun
+```
+
+### opacity()
+#### params
+```
+  high,
+  medium,
+  disabled,
+  divider,
+  ghost
 ```
 
 ### size()

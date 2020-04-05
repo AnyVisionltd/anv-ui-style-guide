@@ -1,5 +1,9 @@
 $opacity-types: (
-  todo: var(--todo, 0.1),
+  high: 1,
+  medium: 0.6,
+  disabled: 0.34,
+  divider: 0.12,
+  ghost: 0.05,
 ) !default;
 
 @function opacity($key: base) {
