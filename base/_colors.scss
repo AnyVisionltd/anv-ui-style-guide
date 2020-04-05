@@ -1,0 +1,41 @@
+$color-palate: (
+  primary: #3e7afc,
+  secondary: #02234b,
+  accent: #19e7fc,
+  decorative: #f43aac,
+  purewhite: #ffffff,
+  trueblack: #010a14,
+  surface1: #02244d,
+  surface2: #fafafc,
+  content1: #021d3d,
+  content2: #fcfeff,
+  success: #00d0a0,
+  alert: #ffc400,
+  error: #d50000,
+  ac-sirius: #55efc4,
+  ac-canopus: #81ecec,
+  ac-vega: #74b9ff,
+  ac-rigel: #a29bfe,
+  ac-earth: #00b894,
+  ac-achernar: #00cec9,
+  ac-betelgeuse: #0984e3,
+  ac-agena: #6c5ce7,
+  ac-spica: #fd79a8,
+  ac-aldebaran: #ff7675,
+  ac-altair: #fab1a0,
+  ac-procyon: #ffeaa7,
+  ac-mimosa: #ffeaa7,
+  ac-pollux: #d63031,
+  ac-antares: #e17055,
+  ac-sun: #fdcb6e
+) !default;
+
+@function color($key) {
+  $value: map-get($color-palate, $key);
+  @if ($value) {
+    @return var(--$key, $value);
+  } @else {
+    $error: 'Given type is `#{$key}` please use `#{map-keys($color-palate)}`';
+    @error $error;
+  }
+}
