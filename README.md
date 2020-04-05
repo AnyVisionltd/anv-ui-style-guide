@@ -61,6 +61,20 @@ You have the ability to change the default values by set css variables.
 
 ```
 
+### Space
+```scss 
+ :root {
+  --micro: 4px;
+  --tiny: 8px;
+  --base: 16px;
+  --medium: 24px;
+  --loose: 32px;
+  --large: 48px;
+  --grand: 64px;
+  --giant: 80px;
+}
+```
+
 ## Available functions
 
 ### radius()
