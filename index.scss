@@ -1,6 +1,6 @@
-@import 'base/_opacity.scss';
-@import 'base/_size.scss';
-@import 'base/_space.scss';
-@import 'base/_typography.scss';
-@import 'base/_border-radius.scss';
-@import 'base/_colors.scss';
+@use 'base/opacity';
+@use 'base/size';
+@use 'base/space';
+@use 'base/typography';
+@use 'base/border-radius';
+@use 'base/colors';
