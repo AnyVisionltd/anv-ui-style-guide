@@ -30,9 +30,12 @@ $color-palate: (
   ac-sun: #fdcb6e
 ) !default;
 
-@function color($key) {
+@function color($key, $opacity: false) {
   $value: map-get($color-palate, $key);
   @if ($value) {
+    @if($opacity) {
+     @return var(--$key, rgba($value, $opacity));
+    }
     @return var(--$key, $value);
   } @else {
     $error: 'Given type is `#{$key}` please use `#{map-keys($color-palate)}`';

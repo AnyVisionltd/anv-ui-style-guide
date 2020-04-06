@@ -1,0 +1,27 @@
+@function hasSameKeys($object1, $object2) {
+  @if(length(map-keys($object1)) == length(map-keys($object2))) {
+    @each $key, $value in $object1 {
+      @if(map-has-key($object2, $key) == false) {
+        @return false;
+      }
+    }
+    @return true;
+  } @else {
+    @return false;
+  }
+}
+
+@function get-number($map, $key) {
+  $value: map-get($map, $key);
+
+  @if($value) {
+    @if(type-of($value) == number) {
+      // Make sure the font value is a number after adding px
+      @return $value
+    } @else {
+      @error 'Please make sure the key `#{$key}` value is a number current value is `#{$value}`';
+    }
+  } @else {
+    @error 'Given value is `#{$key}`, the aviablle values are - `#{map-keys($map)}`';
+  }
+}

@@ -1,0 +1,45 @@
+
+%body1 {
+  font-size: font-size();
+  line-height: 1.5;
+  letter-spacing: 0.45px;
+}
+
+%body2 {
+  font-size: font-size(small);
+  line-height: 1.57;
+  letter-spacing: 0.25px;
+}
+
+%subtitle1 {
+  font-size: font-size();
+  font-weight: font-weight(bold);
+  line-height: 1.56;
+  letter-spacing: 0.14px;
+}
+
+%subtitle2 {
+  font-size: font-size(small);
+  font-weight: font-weight(bold);
+  line-height: 1.71;
+  letter-spacing: 0.1px;
+}
+
+%overline {
+  font-size: font-size(micro);
+  line-height: 1.6;
+  letter-spacing: 1.5px;
+}
+
+%caption {
+  font-size: font-size(tiny);
+  line-height: 1.6;
+  letter-spacing: 1.5px;
+}
+
+%button {
+  font-weight: font-weight(bold);
+  font-size: font-size(small);
+  line-height: 1.5;
+  letter-spacing: 1.34px;
+}

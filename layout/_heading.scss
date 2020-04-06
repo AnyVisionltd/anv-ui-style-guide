@@ -1,0 +1,37 @@
+h1 {
+  font-size: font-size(header);
+  line-height: 1.5;
+  font-weight: font-weight(lighter);
+  letter-spacing: -1.54px;
+}
+
+h2 {
+  font-size: rem(60px);
+  line-height: 1.5;
+  font-weight: font-weight(lighter);
+  letter-spacing: -0.48px;
+}
+
+h3 {
+  font-size: rem(48px);
+  line-height: 1.5;
+}
+
+h4 {
+  font-size: rem(32px);
+  line-height: 1.63;
+  letter-spacing: 0.26px;
+}
+
+h5 {
+  font-size: rem(24px);
+  line-height: 1.42;
+  letter-spacing: 0.19px;
+}
+
+h6 {
+  font-size: rem(20px);
+  font-weight: font-weight(bold);
+  line-height: 1.5;
+  letter-spacing: 0.15px;
+}

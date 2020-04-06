@@ -1,4 +1,4 @@
-$measure-unit: px !default;
+$border-radius-measure-unit: px !default;
 $border-radius-sizes: (
   tidy: 4,
   base: 8,
@@ -10,13 +10,7 @@ $border-radius-sizes: (
   @if($key == circle) {
     @return 50%;
   }
-  $value: map-get($border-radius-sizes, $key);
-  @if ($value) {
-    @return var(--$key, $value + $measure-unit)
-  } @else {
-    $error: 'Given type is `#{$key}` please use `#{map-keys($border-radius-sizes)}, circle`';
-    @error $error;
-  }
+  @return var(--$key, get-number($border-radius-sizes, $key) + $border-radius-measure-unit);
 }
 
 

@@ -1,4 +1,4 @@
-$measure-unit: px !default;
+$sizes-measure-unit: px !default;
 
 $sizes: (
   sz-8: 8,
@@ -19,12 +19,6 @@ $sizes: (
   sz-960: 960
 ) !default;
 
-@function size($key: base) {
-  $value: map-get($sizes, $key);
-  @if ($value) {
-    @return var(--$key, $value + $measure-unit)
-  } @else {
-    $error: 'Given type is `#{$key}` please use `#{map-keys($sizes)}`';
-    @error $error;
-  }
+@function size($key) {
+  @return var(--$key, get-number($sizes, $key) + $sizes-measure-unit);
 }

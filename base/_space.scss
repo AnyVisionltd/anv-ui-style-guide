@@ -1,4 +1,4 @@
-$measure-unit: px !default;
+$spacing-measure-unit: px !default;
 
 $spacing-sizes: (
   micro: 4,
@@ -12,11 +12,5 @@ $spacing-sizes: (
 ) !default;
 
 @function space($key: base) {
-  $value: map-get($spacing-sizes, $key);
-  @if ($value) {
-    @return var(--$key, $value + $measure-unit)
-  } @else {
-    $error: 'Given type is `#{$key}` please use `#{map-keys($spacing-sizes)}`';
-    @error $error;
-  }
+  @return var(--$key, get-number($spacing-sizes, $key) + $spacing-measure-unit);
 }
