@@ -25,15 +25,17 @@ This library exports SCSS file!
 }
 ```
 
+
 ## Documentation
 The documentation is divided into several sections:
 
 * [Override Theme](#override-theme)
 * [Override Default Values](#override-default-values)
 * [Functions](#functions)
+* [Layout](#layout)
 
 
-#### Override Theme
+### Override Theme
 Theme described with [Colors](#colors), [Spaces](#spaces) and [Border Radius](#border-radius).
 <br/>
 All the custom properties (variables) are in default define in ```:root``` element.
@@ -43,7 +45,7 @@ To override the theme default colors, all need to do is create a CSS selector an
 to define new CSS variables.
 <br/>
 <br/>
-<b><u>For example:</u></b>
+For example:
 
 ``` scss
 :root {
@@ -61,7 +63,7 @@ to define new CSS variables.
 }
 ```
 
-#### Override Default Values
+### Override Default Values
 To override the default value, need to create new file for example `my-override-file`.
 <br/>
 On this file need to declare SCSS variables with the same names as the default
@@ -69,10 +71,11 @@ On this file need to declare SCSS variables with the same names as the default
 values.
 <br/>
 <br/>
-<b><u>For example:</u></b> 
+For example:
 
-my-override-file.scss -
 ``` scss
+// my-override-file.scss
+
 $border-radius-sizes: (
   tidy: 14,
   base: 18,
@@ -88,6 +91,10 @@ index.scss
 On this way it will override `border-radius-sizes`.
 
 ### Functions
+This section will contain the available functions and the way to use them
+<br/>
+and their default value.
+  
 * [av-radius](#av-radius)
 * [av-color](#av-color)
 * [av-opacity](#av-opacity)
@@ -414,5 +421,3 @@ Dont:
 ```
 <br/>
 
-
-<hr/>
