@@ -138,6 +138,8 @@ Dont:
 ```
 <br/>
 
+<hr/>
+
 #### av-color
 This function will return the color HEX of the given parameter as CSS variable.
 <br/>
@@ -203,6 +205,8 @@ Dont:
 ```
 <br/>
 
+<hr/>
+
 #### av-opacity
 This function will return the opacity number value of the given parameter as CSS variable.
 <br/>
@@ -234,6 +238,8 @@ Dont:
 }
 ```
 <br/>
+
+<hr/>
 
 #### av-size
 This function will return the size number value of the given parameter as CSS variable.
@@ -283,6 +289,8 @@ Dont:
 ```
 <br/>
 
+<hr/>
+
 #### av-space
 This function will return the space number value of the given parameter as CSS variable.
 <br/>
@@ -324,6 +332,8 @@ Dont:
 }
 ```
 <br/>
+
+<hr/>
 
 #### av-font-size
 This function will return the font size number value of the given as REM.
@@ -367,6 +377,8 @@ Dont:
 ```
 <br/>
 
+<hr/>
+
 #### av-font-weight
 This function will return the font weight number value of the given parameter.
 <br/>
@@ -401,3 +413,6 @@ Dont:
 }
 ```
 <br/>
+
+
+<hr/>
