@@ -1,0 +1,44 @@
+%av-body1 {
+  font-size: av-font-size();
+  line-height: 1.5;
+  letter-spacing: 0.45px;
+}
+
+%av-body2 {
+  font-size: av-font-size(small);
+  line-height: 1.57;
+  letter-spacing: 0.25px;
+}
+
+%av-subtitle1 {
+  font-size: av-font-size();
+  font-weight: av-font-weight(bold);
+  line-height: 1.56;
+  letter-spacing: 0.14px;
+}
+
+%av-subtitle2 {
+  font-size: av-font-size(small);
+  font-weight: av-font-weight(bold);
+  line-height: 1.71;
+  letter-spacing: 0.1px;
+}
+
+%av-overline {
+  font-size: av-font-size(micro);
+  line-height: 1.6;
+  letter-spacing: 1.5px;
+}
+
+%av-caption {
+  font-size: av-font-size(tiny);
+  line-height: 1.6;
+  letter-spacing: 1.5px;
+}
+
+%av-button {
+  font-size: av-font-size(small);
+  font-weight: av-font-weight(bold);
+  line-height: 1.5;
+  letter-spacing: 1.34px;
+}

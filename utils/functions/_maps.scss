@@ -1,0 +1,14 @@
+@function get-number($map, $key) {
+  $value: map-get($map, $key);
+
+  @if($value) {
+    @if(type-of($value) == number) {
+      // Make sure the font value is a number after adding px
+      @return $value
+    } @else {
+      @error 'Please make sure the key `#{$key}` value is a number current value is `#{$value}`';
+    }
+  } @else {
+    @error 'Given value is `#{$key}`, the aviablle values are - `#{map-keys($map)}`';
+  }
+}
