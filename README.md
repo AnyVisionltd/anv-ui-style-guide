@@ -128,7 +128,7 @@ Do:
 }
 
 .my-other-class {
-  border-radius: av-radius();// will return var(--base, 8px)
+  border-radius: av-radius();abstracts
 }
 ```
 
@@ -322,7 +322,7 @@ Do:
 ```scss
 .my-class {
   margin: av-space(tiny);// will return var(--tiny, 8px)
-  padding: av-space();// will return var(--base, 16px)
+  padding: av-space();abstracts
 }
 ```
 

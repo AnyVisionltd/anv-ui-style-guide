@@ -20,5 +20,5 @@ $sizes: (
 ) !default;
 
 @function av-size($key) {
-  @return var(--$key, get-number($sizes, $key) + $sizes-measure-unit);
+  @return var(set-as-var($key), get-number($sizes, $key) + $sizes-measure-unit);
 }
