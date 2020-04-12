@@ -1,7 +1,9 @@
-# Typography
+# Layout
+
+## Typography
 Use typography to present your design and content as clearly and efficiently as possible.
 
-## Font Sizes
+#### Font Sizes
 ```
 micro: 10,
 tiny: 12,
@@ -15,7 +17,7 @@ giant: 60,
 header: 96
 ```
 
-## Font Weight
+#### Font Weight
 ```
 lighter: 300,
 normal: 400,

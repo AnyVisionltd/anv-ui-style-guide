@@ -167,7 +167,7 @@ This function will return the font size number value of the given as REM.
 Default value - `base`.
 <br/>
 <br/>
-[Available Values](TYPOGRAPHY.md#font-sizes)
+[Available Values](LAYOUT.md#font-sizes)
 
 Do:
 
@@ -196,7 +196,7 @@ This function will return the font weight number value of the given parameter.
 Default value - `normal`.
 <br/>
 <br/>
-[Available Values](TYPOGRAPHY.md#font-weight)
+[Available Values](LAYOUT.md#font-weight)
 
 Do:
 

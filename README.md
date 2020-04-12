@@ -1,6 +1,13 @@
-# AnyVision Style Guide
-
-AnyVision theme and style guide library.
+# Anyvision Design System
+This library design to make the user much more easier to work with the design system of Anyvision.
+<br/>
+<br/>
+<b>What is the goal of this project?</b>
+<br/>
+<br/>
+Now days to change the current application theme takes long time and because of that this repo became live.
+<br/>
+All you have to do now is just copy your new colors to you'r project and BOOM this works.
 
 
 ## Contents
@@ -29,11 +36,6 @@ This library exports SCSS file!
 ## Documentation
 The documentation is divided into several sections:
 
-* [Override Theme](#override-theme)
-* [Override Default Values](#override-default-values)
+* [Override](docs/OVERRIDE.md)
 * [Functions](docs/FUNCTIONS.md)
 * [Layout](#layout)
-
-
-### Layout
-On this section 
