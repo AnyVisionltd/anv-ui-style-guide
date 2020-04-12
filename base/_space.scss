@@ -11,6 +11,6 @@ $spacing-sizes: (
   giant: 80
 ) !default;
 
-@function space($key: base) {
+@function av-space($key: base) {
   @return var(--$key, get-number($spacing-sizes, $key) + $spacing-measure-unit);
 }

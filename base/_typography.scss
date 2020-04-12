@@ -17,10 +17,10 @@ $font-sizes: (
   header: 96
 ) !default;
 
-@function font-size($key: base) {
+@function av-font-size($key: base) {
   @return rem(get-number($font-sizes, $key) * 1px);
 }
 
-@function font-weight($key: normal) {
+@function av-font-weight($key: normal) {
   @return get-number($font-weight, $key);
 }

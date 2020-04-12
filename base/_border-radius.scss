@@ -6,7 +6,7 @@ $border-radius-sizes: (
   curvy: 24,
 ) !default;
 
-@function radius($key: base) {
+@function av-radius($key: base) {
   @if($key == circle) {
     @return 50%;
   }

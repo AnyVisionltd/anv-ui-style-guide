@@ -1,16 +1,3 @@
-@function hasSameKeys($object1, $object2) {
-  @if(length(map-keys($object1)) == length(map-keys($object2))) {
-    @each $key, $value in $object1 {
-      @if(map-has-key($object2, $key) == false) {
-        @return false;
-      }
-    }
-    @return true;
-  } @else {
-    @return false;
-  }
-}
-
 @function get-number($map, $key) {
   $value: map-get($map, $key);
 

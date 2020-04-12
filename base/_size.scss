@@ -19,6 +19,6 @@ $sizes: (
   sz-960: 960
 ) !default;
 
-@function size($key) {
+@function av-size($key) {
   @return var(--$key, get-number($sizes, $key) + $sizes-measure-unit);
 }

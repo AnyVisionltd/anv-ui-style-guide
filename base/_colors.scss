@@ -30,7 +30,7 @@ $color-palate: (
   ac-sun: #fdcb6e
 ) !default;
 
-@function color($key, $opacity: false) {
+@function av-color($key, $opacity: false) {
   $value: map-get($color-palate, $key);
   @if ($value) {
     @if($opacity) {
