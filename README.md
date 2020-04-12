@@ -87,7 +87,7 @@ index.scss
 ```
 On this way it will override `border-radius-sizes`.
 
-#### Functions
+### Functions
 * [av-radius](#av-radius)
 * [av-color](#av-color)
 * [av-opacity](#av-opacity)
@@ -98,7 +98,7 @@ On this way it will override `border-radius-sizes`.
 
 <hr/>
 
-##### av-radius
+#### av-radius
 This function will return the radius number value of the given parameter as CSS variable.
 <br/>
 Default value - `base`.
@@ -138,7 +138,7 @@ Dont:
 ```
 <br/>
 
-##### av-color
+#### av-color
 This function will return the color HEX of the given parameter as CSS variable.
 <br/>
 The function can get 2 parameters, the key of the requested color and the opacity.
@@ -203,7 +203,7 @@ Dont:
 ```
 <br/>
 
-##### av-opacity
+#### av-opacity
 This function will return the opacity number value of the given parameter as CSS variable.
 <br/>
 <br/>
@@ -235,7 +235,7 @@ Dont:
 ```
 <br/>
 
-##### av-size
+#### av-size
 This function will return the size number value of the given parameter as CSS variable.
 <br/>
 <br/>
@@ -283,7 +283,7 @@ Dont:
 ```
 <br/>
 
-##### av-space
+#### av-space
 This function will return the space number value of the given parameter as CSS variable.
 <br/>
 Default value - `base`.
@@ -325,7 +325,7 @@ Dont:
 ```
 <br/>
 
-##### av-font-size
+#### av-font-size
 This function will return the font size number value of the given as REM.
 <br/>
 Default value - `base`.
@@ -367,7 +367,7 @@ Dont:
 ```
 <br/>
 
-##### av-font-weight
+#### av-font-weight
 This function will return the font weight number value of the given parameter.
 <br/>
 Default value - `normal`.
