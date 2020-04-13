@@ -30,7 +30,7 @@ $color-palate: (
 ) !default;
 
 // Set :export to share variables with JS
-:root {
+:export {
   @each $color, $value in $color-palate {
     $color: $value;
   }
