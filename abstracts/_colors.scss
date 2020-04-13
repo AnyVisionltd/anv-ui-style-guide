@@ -1,4 +1,3 @@
-//If changed this color map please update the fine docs/VARIABLES.md
 $color-palate: (
   primary: #3e7afc,
   secondary: #02234b,
@@ -36,6 +35,10 @@ $color-palate: (
   }
 }
 
+// This function will manage to return a color by given key.
+// @param $key: The color key in the $color-palate.
+// @param $opacity: If has opacity the color will return as rgba.
+// @return color as HEX or RGBA.
 @function av-color($key, $opacity: false) {
   $value: map-get($color-palate, $key);
   @if ($value) {

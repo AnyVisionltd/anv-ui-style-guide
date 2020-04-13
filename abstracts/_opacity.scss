@@ -6,6 +6,9 @@ $opacity-types: (
   ghost: 0.05,
 ) !default;
 
+// This function will manage to return opacity by given key.
+// @param $key: The opacity key in the $opacity-types.
+// @return opacity.
 @function av-opacity($key) {
   @return var(set-as-var($key), get-number($opacity-types, $key));
 }
