@@ -1,16 +1,19 @@
 $border-radius-measure-unit: px !default;
-$border-radius-sizes: (
+$border-radius-types: (
   tidy: 4,
   base: 8,
   round: 16,
   curvy: 24,
 ) !default;
 
+// This function will manage to return a border-radius by given key.
+// @param $key: The radius key in the $border-radius-types.
+// @return border-radius with the $border-radius-measure-unit.
 @function av-radius($key: base) {
   @if($key == circle) {
     @return 50%;
   }
-  @return var(set-as-var($key), get-number($border-radius-sizes, $key) + $border-radius-measure-unit);
+  @return var(set-as-var($key), get-number($border-radius-types, $key) + $border-radius-measure-unit);
 }
 
 

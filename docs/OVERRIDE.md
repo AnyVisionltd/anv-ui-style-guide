@@ -43,7 +43,7 @@ For example:
 ``` scss
 // my-override-file.scss
 
-$border-radius-sizes: (
+$border-radius-types: (
   tidy: 14,
   base: 18,
   round: 116,

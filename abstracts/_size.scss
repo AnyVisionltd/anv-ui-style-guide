@@ -1,6 +1,6 @@
 $sizes-measure-unit: px !default;
 
-$sizes: (
+$sizes-types: (
   sz-8: 8,
   sz-16: 16,
   sz-24: 24,
@@ -19,6 +19,9 @@ $sizes: (
   sz-960: 960
 ) !default;
 
+// This function will manage to return a size by given key.
+// @param $key: The size key in the $sizes-types.
+// @return size with the $sizes-measure-unit.
 @function av-size($key) {
-  @return var(set-as-var($key), get-number($sizes, $key) + $sizes-measure-unit);
+  @return var(set-as-var($key), get-number($sizes-types, $key) + $sizes-measure-unit);
 }
