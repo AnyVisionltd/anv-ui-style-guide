@@ -1,25 +1,20 @@
 # Layout
+On this section there is the layout separate to a sections.
 
 ## Typography
 Use typography to present your design and content as clearly and efficiently as possible.
+<br/>
+#### Heading
+As default, when using this repo all headers tags (h1, h2 and etc...) will get a default design.
+<br/>
+[For more information](../layout/_heading.scss) 
 
-#### Font Sizes
-```
-micro: 10,
-tiny: 12,
-small: 14,
-base: 16,
-medium: 20,
-large: 24,
-x-large: 32,
-grand: 48,
-giant: 60,
-header: 96
-```
+#### Body
+To use body typography need to extend one of the given placeholders as listed
+[For more information](../layout/_body.scss) 
 
-#### Font Weight
-```
-lighter: 300,
-normal: 400,
-bold: 700
-```  
+## Elevation
+Use elevation to display a container with shadow and opacity as given.
+<br/>
+To use elevation need to use mixin [av-elevation](MIXINS.md#av-elevation).
+

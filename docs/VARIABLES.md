@@ -94,3 +94,24 @@ large: 48,
 grand: 64,
 giant: 80
 ```
+
+#### Font Sizes
+```
+micro: 10,
+tiny: 12,
+small: 14,
+base: 16,
+medium: 20,
+large: 24,
+x-large: 32,
+grand: 48,
+giant: 60,
+header: 96
+```
+
+#### Font Weight
+```
+lighter: 300,
+normal: 400,
+bold: 700
+```  
