@@ -10,6 +10,9 @@ and their default value.
 * [av-space](#av-space)
 * [av-font-size](#av-font-size)
 * [av-font-weight](#av-font-weight)
+* [set-as-var](#set-as-var)
+* [get-number](#get-number)
+* [rem](#rem)
 
 ## av-radius
 This function will return the radius number value of the given parameter as CSS variable.
@@ -215,5 +218,80 @@ Dont:
 ```scss
 .my-class {
  font-weight: av-font-weight(no-such-variable);// will throw compile error
+}
+```
+
+## set-as-var
+This function will return the given key as `--key`.
+<br/>
+Use only to generate css variables!
+
+Do:
+```scss
+// lets say $key = my-key
+@function my-function($key) {
+  $my-css-var: set-as-var($key);// will return --my-key
+  //...
+  @return var($my-css-var, #fff);
+}
+```
+
+Dont:
+```scss
+// lets say $key = my-key
+@function my-function($key) {
+  $summary: set-as-var($key);
+  //...
+  @return $summary - 2px; 
+}
+```
+
+## get-number
+This function will return from a given map and a given key a number value
+<br/>
+and if the value is not a number the function will throw an error.
+
+Do:
+```scss
+$my-map: (
+  key1: 1,
+  key2: '2'
+);
+
+// lets say $key = key1
+@function my-function($key) {
+  $my-css-var: get-number($my-map, $key);// will return 1
+  //...
+}
+```
+
+Dont:
+```scss
+$my-map: (
+  key1: 1,
+  key2: '2'
+);
+
+// lets say $key = key2
+@function my-function($key) {
+  $my-css-var: get-number($my-map, $key);// will throw an error
+  //...
+}
+```
+
+## rem
+This function will return a px value as rem.
+
+Do:
+```scss
+.my-class {
+  font-size: rem(16px); //will return 1rem
+}
+```
+
+Dont:
+```scss
+.my-class {
+  font-size: rem(16cm); //will return 1rem
 }
 ```

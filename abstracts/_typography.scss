@@ -18,7 +18,7 @@ $font-sizes: (
 ) !default;
 
 @function av-font-size($key: base) {
-  @return rem(get-number($font-sizes, $key) * 1px);
+  @return rem(get-number($font-sizes, $key));
 }
 
 @function av-font-weight($key: normal) {
