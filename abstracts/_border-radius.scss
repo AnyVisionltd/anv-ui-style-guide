@@ -10,7 +10,7 @@ $border-radius-sizes: (
   @if($key == circle) {
     @return 50%;
   }
-  @return var(--$key, get-number($border-radius-sizes, $key) + $border-radius-measure-unit);
+  @return var(set-as-var($key), get-number($border-radius-sizes, $key) + $border-radius-measure-unit);
 }
 
 

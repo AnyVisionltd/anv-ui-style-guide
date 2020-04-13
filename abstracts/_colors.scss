@@ -1,3 +1,4 @@
+//If changed this color map please update the fine docs/VARIABLES.md
 $color-palate: (
   primary: #3e7afc,
   secondary: #02234b,
@@ -5,10 +6,8 @@ $color-palate: (
   decorative: #f43aac,
   purewhite: #ffffff,
   trueblack: #010a14,
-  surface1: #02244d,
-  surface2: #fafafc,
-  content1: #021d3d,
-  content2: #fcfeff,
+  surface: #02244d,
+  content: #021d3d,
   success: #00d0a0,
   alert: #ffc400,
   error: #d50000,
@@ -30,13 +29,20 @@ $color-palate: (
   ac-sun: #fdcb6e
 ) !default;
 
+// Set :export to share variables with JS
+:root {
+  @each $color, $value in $color-palate {
+    $color: $value;
+  }
+}
+
 @function av-color($key, $opacity: false) {
   $value: map-get($color-palate, $key);
   @if ($value) {
     @if($opacity) {
-     @return var(--$key, rgba($value, $opacity));
+     @return var(set-as-var($key), rgba($value, $opacity));
     }
-    @return var(--$key, $value);
+    @return var(set-as-var($key), $value);
   } @else {
     $error: 'Given type is `#{$key}` please use `#{map-keys($color-palate)}`';
     @error $error;

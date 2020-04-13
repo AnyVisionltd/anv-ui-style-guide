@@ -1,5 +1,16 @@
 $default-browser-font-size: 16px !default;
 
 @function rem($size) {
-  @return $size / $default-browser-font-size * 1rem;
+  $unit: unit($size);
+  @if($unit != '') {
+    @if($unit == px) {
+      @return $size / $default-browser-font-size * 1rem;
+    } @else {
+      @error 'Please make sure the givn unit is px, the given value is `#{$size}`';
+    }
+  } @else {
+    $size: $size * 1px;
+    @return $size / $default-browser-font-size * 1rem;
+  }
 }
+

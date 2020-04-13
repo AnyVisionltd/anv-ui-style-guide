@@ -1,0 +1,31 @@
+$elevations-opacity: (
+  flat: 1,
+  raised: 0.07,
+  overlay: 0.09,
+  sticky: 0.12,
+  temporary: 0.15,
+  pop-out: 0.16
+) !default;
+
+$elevations-shadow-opacity: (
+  raised: 0.1,
+  overlay: 0.1,
+  sticky: 0.12,
+  temporary: 0.1,
+  pop-out: 0.1
+) !default;
+
+@mixin av-elevation($key) {
+  $opacity: map-get($elevations-opacity, $key);
+  $shadow-opacity: map-get($elevations-shadow-opacity, $key);
+
+  @if($opacity) {
+    background-color: av-color(surface, $opacity);
+  } @else {
+    background-color: av-color(surface);
+  }
+
+  @if($shadow-opacity) {
+    box-shadow: av-shadow(large, av-color(trueblack, $shadow-opacity));
+  }
+}

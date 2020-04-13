@@ -7,5 +7,5 @@ $opacity-types: (
 ) !default;
 
 @function av-opacity($key) {
-  @return var(--$key, get-number($opacity-types, $key));
+  @return var(set-as-var($key), get-number($opacity-types, $key));
 }

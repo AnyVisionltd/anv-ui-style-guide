@@ -12,5 +12,5 @@ $spacing-sizes: (
 ) !default;
 
 @function av-space($key: base) {
-  @return var(--$key, get-number($spacing-sizes, $key) + $spacing-measure-unit);
+  @return var(set-as-var($key), get-number($spacing-sizes, $key) + $spacing-measure-unit);
 }
