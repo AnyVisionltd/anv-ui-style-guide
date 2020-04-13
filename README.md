@@ -38,4 +38,4 @@ The documentation is divided into several sections:
 
 * [Override](docs/OVERRIDE.md)
 * [Functions](docs/FUNCTIONS.md)
-* [Layout](#layout)
+* [Layout](docs/LAYOUT.md)
