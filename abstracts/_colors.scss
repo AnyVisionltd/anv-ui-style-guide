@@ -30,8 +30,8 @@ $color-palate: (
 
 // Set :export to share variables with JS
 :export {
-  @each $color, $value in $color-palate {
-    $color: $value;
+  @each $key, $value in $color-palate {
+    #{$key}: $value;
   }
 }
 
