@@ -45,11 +45,6 @@ Used for content differentiate (charts, watchlists, avatars...)
 - ![#e17055](https://placehold.it/15/e17055/000000?text=+) `ac-antares - #e17055`
 - ![#fdcb6e](https://placehold.it/15/fdcb6e/000000?text=+) `ac-sun - #fdcb6e`
 
-#### Access colors from js
-```js
-import colors from '@anyvision/style-guide/abstracts/_colors.scss'
-``` 
-
 ## Radius
 This variables are manage to display the relevant `border-radius` as needed.
 ```

@@ -28,13 +28,6 @@ $color-palate: (
   ac-sun: #fdcb6e
 ) !default;
 
-// Set :export to share variables with JS
-:export {
-  @each $key, $value in $color-palate {
-    #{$key}: $value;
-  }
-}
-
 // This function will manage to return a color by given key.
 // @param $key: The color key in the $color-palate.
 // @param $opacity: If has opacity the color will return as rgba.
@@ -49,5 +42,12 @@ $color-palate: (
   } @else {
     $error: 'Given type is `#{$key}` please use `#{map-keys($color-palate)}`';
     @error $error;
+  }
+}
+
+// Set :export to share variables with JS
+:export {
+  @each $key, $value in $color-palate {
+    #{$key}: $value;
   }
 }

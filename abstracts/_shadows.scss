@@ -14,3 +14,10 @@ $shadow-types: (
     @error 'Given value is `#{$key}`, the available values are - `#{map-keys($shadow-types)}`';
   }
 }
+
+// Set :export to share variables with JS
+:export {
+  @each $key, $value in $shadow-types {
+    #{$key}: $value;
+  }
+}

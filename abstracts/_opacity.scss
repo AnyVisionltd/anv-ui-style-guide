@@ -12,3 +12,10 @@ $opacity-types: (
 @function av-opacity($key) {
   @return var(set-as-var($key), get-number($opacity-types, $key));
 }
+
+// Set :export to share variables with JS
+:export {
+  @each $key, $value in $opacity-types {
+    #{$key}: $value;
+  }
+}

@@ -14,3 +14,10 @@ $spacing-sizes: (
 @function av-space($key: base) {
   @return var(set-as-var($key), get-number($spacing-sizes, $key) + $spacing-measure-unit);
 }
+
+// Set :export to share variables with JS
+:export {
+  @each $key, $value in $spacing-sizes {
+    #{$key}: $value + $spacing-measure-unit;
+  }
+}

@@ -23,13 +23,18 @@ npm i @anyvision/style-guide --save
 ```
 
 ## Usage
-This library exports SCSS file!
+#### Access from scss
 ```scss
 @import '~@anyvision/style-guide';
 
 .header { 
     background-color: av-color(trueblack);
 }
+``` 
+
+#### Access from js
+```js
+import colors from '@anyvision/style-guide/abstracts/_colors.scss'
 ```
 
 
