@@ -24,3 +24,14 @@ $font-sizes: (
 @function av-font-weight($key: normal) {
   @return get-number($font-weight, $key);
 }
+
+// Set :export to share variables with JS
+:export {
+  @each $key, $value in $font-weight {
+    #{$key}: $value;
+  }
+
+  @each $key, $value in $font-sizes {
+    #{$key}: $value;
+  }
+}
