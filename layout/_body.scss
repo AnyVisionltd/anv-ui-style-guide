@@ -28,6 +28,7 @@
   font-size: av-font-size(micro);
   line-height: 1.6;
   letter-spacing: 1.5px;
+  text-transform: uppercase;
 }
 
 %av-caption {
@@ -41,4 +42,5 @@
   font-weight: av-font-weight(bold);
   line-height: 1.5;
   letter-spacing: 1.34px;
+  text-transform: uppercase;
 }
