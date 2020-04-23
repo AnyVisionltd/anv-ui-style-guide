@@ -29,7 +29,7 @@ Used for native styles like shadow and etc...
 #### Content
 Used in surfaces, Icons, Typography and any other UI elements
 - ![#02244d](https://placehold.it/15/02244d/000000?text=+) `surface - #02244d`
-- ![#021d3d](https://placehold.it/15/021d3d/000000?text=+) `content - #021d3d`
+- ![#fcfcff](https://placehold.it/15/fcfcff/000000?text=+) `content - #fcfcff`
 
 #### Status
 Used for showing the user the current status of a situation
