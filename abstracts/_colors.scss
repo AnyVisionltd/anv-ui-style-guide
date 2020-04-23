@@ -1,31 +1,36 @@
 $color-palate: (
+  // Primary Colors
   primary: #3e7afc,
   secondary: #02234b,
   accent: #19e7fc,
   decorative: #f43aac,
+  // Native Colors
   purewhite: #ffffff,
   trueblack: #010a14,
+  // Content Colors
   surface: #02244d,
-  content: #021d3d,
+  content: #fcfcff,
+  // Status Colors
   success: #00d0a0,
   alert: #ffc400,
   error: #d50000,
+  // Additional Colors
   ac-sirius: #55efc4,
-  ac-canopus: #81ecec,
-  ac-vega: #74b9ff,
-  ac-rigel: #a29bfe,
   ac-earth: #00b894,
+  ac-procyon: #ffeaa7,
+  ac-sun: #fdcb6e,
+  ac-canopus: #81ecec,
   ac-achernar: #00cec9,
+  ac-altair: #fab1a0,
+  ac-antares: #e17055,
+  ac-vega: #74b9ff,
   ac-betelgeuse: #0984e3,
+  ac-aldebaran: #ff7675,
+  ac-pollux: #d63031,
+  ac-rigel: #a29bfe,
   ac-agena: #6c5ce7,
   ac-spica: #fd79a8,
-  ac-aldebaran: #ff7675,
-  ac-altair: #fab1a0,
-  ac-procyon: #ffeaa7,
-  ac-mimosa: #ffeaa7,
-  ac-pollux: #d63031,
-  ac-antares: #e17055,
-  ac-sun: #fdcb6e
+  ac-mimosa: #e84393
 ) !default;
 
 // This function will manage to return a color by given key.
