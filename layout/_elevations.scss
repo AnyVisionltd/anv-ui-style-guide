@@ -16,16 +16,33 @@ $elevations-shadow-opacity: (
 ) !default;
 
 @mixin av-elevation($key) {
-  $opacity: map-get($elevations-opacity, $key);
+  $opacity: 1 !default;
+  $elevation-opacity: map-get($elevations-opacity, $key);
   $shadow-opacity: map-get($elevations-shadow-opacity, $key);
+  display: flex;
+  position: relative;
+  background-color: av-color(surface);
 
-  @if($opacity) {
-    background-color: av-color(surface, $opacity);
-  } @else {
-    background-color: av-color(surface);
+  @if($elevation-opacity) {
+    $opacity: $elevation-opacity;
   }
 
   @if($shadow-opacity) {
     box-shadow: av-shadow(large, av-color(trueblack, $shadow-opacity));
+  }
+
+  &:before {
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: absolute;
+    content: '';
+    background-color: rgba(#fff, $elevation-opacity);
+  }
+
+  // To make sure all elements that are not part of the background will be above!
+  // DO NOT REMOVE!
+  > * {
+    z-index: 0;
   }
 }
