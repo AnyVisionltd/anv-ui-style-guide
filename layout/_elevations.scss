@@ -27,6 +27,6 @@ $elevations-shadow-sizes: (
     $elevation-opacity: map-get($elevations-opacity, $key);
     $shadow-opacity: map-get($elevations-shadow-opacity, $key);
     $shadow-size: map-get($elevations-shadow-sizes, $key);
-    box-shadow: av-shadow($shadow-size, av-color(trueblack, $shadow-opacity)), inset 0 0 0 99999px rgba(255, 255, 255, $elevation-opacity);
+    box-shadow: av-shadow($shadow-size, av-color(trueblack, $shadow-opacity)), inset 0 0 0 99999px av-color(purewhite, $shadow-opacity);
   }
 }
