@@ -41,10 +41,10 @@ $color-palate: (
   $value: map-get($color-palate, $key);
   @if ($value) {
     @if($opacity) {
-      // DO NOT REMOVE UPPERCASE TO NOT COMPILE VIA SCSS `rgba` FUNCTION
+      // To use css pure function used as uppercase
      @return RGBA(var(set-as-var($key)), $opacity);
     }
-    // DO NOT REMOVE UPPERCASE TO NOT COMPILE VIA SCSS `rgb` FUNCTION
+    // To use css pure function used as uppercase
     @return RGB(var(set-as-var($key)));
   } @else {
     $error: 'Given type is `#{$key}` please use `#{map-keys($color-palate)}`';
