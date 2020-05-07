@@ -41,14 +41,24 @@ $color-palate: (
   $value: map-get($color-palate, $key);
   @if ($value) {
     @if($opacity) {
-     @return var(set-as-var($key), rgba($value, $opacity));
+      // DO NOT REMOVE UPPERCASE TO NOT COMPILE VIA SCSS `rgba` FUNCTION
+     @return RGBA(var(set-as-var($key)), $opacity);
     }
-    @return var(set-as-var($key), $value);
+    // DO NOT REMOVE UPPERCASE TO NOT COMPILE VIA SCSS `rgb` FUNCTION
+    @return RGB(var(set-as-var($key)));
   } @else {
     $error: 'Given type is `#{$key}` please use `#{map-keys($color-palate)}`';
     @error $error;
   }
 }
+
+// Set default colors on :root element
+:root {
+  @each $key, $value in $color-palate {
+    #{set-as-var($key)}: unquote(hexToRGBString($value));
+  }
+}
+
 
 // Set :export to share variables with JS
 :export {
