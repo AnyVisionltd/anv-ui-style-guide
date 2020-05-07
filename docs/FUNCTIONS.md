@@ -13,6 +13,7 @@ and their default value.
 * [set-as-var](#set-as-var)
 * [get-number](#get-number)
 * [rem](#rem)
+* [hex-to-rgb-string](#hex-to-rgb-string)
 
 ## av-radius
 This function will return the radius number value of the given parameter as CSS variable.
@@ -293,5 +294,23 @@ Dont:
 ```scss
 .my-class {
   font-size: rem(16cm); //will return 1rem
+}
+```
+
+## hex-to-rgb-string
+This function will return the red, green, blue values of an Hex color.
+
+Do:
+```scss
+.my-class {
+  --my-color: hex-to-rgb-string(#ffffff);
+  --my-other-color: unquote(hex-to-rgb-string(#ffffff));
+}
+```
+
+Dont:
+```scss
+.my-class {
+  --my-color: hex-to-rgb-string(#not-hex-color);
 }
 ```

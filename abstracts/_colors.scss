@@ -55,7 +55,7 @@ $color-palate: (
 // Set default colors on :root element
 :root {
   @each $key, $value in $color-palate {
-    #{set-as-var($key)}: unquote(hexToRGBString($value));
+    #{set-as-var($key)}: unquote(hex-to-rgb-string($value));
   }
 }
 
