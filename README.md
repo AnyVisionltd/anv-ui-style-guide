@@ -44,3 +44,5 @@ The documentation is divided into several sections:
 * [Override](docs/OVERRIDE.md)
 * [Functions](docs/FUNCTIONS.md)
 * [Layout](docs/LAYOUT.md)
+* [Extensions](docs/EXTENSIONS.md)
+
