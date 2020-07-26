@@ -1,0 +1,82 @@
+%av-body1 {
+  font-size: av-font-size();
+  line-height: 24px;
+  letter-spacing: 0.44px;
+}
+
+%av-body2 {
+  font-size: av-font-size(small);
+  line-height: 22px;
+  letter-spacing: 0.24px;
+}
+%av-headline1 {
+  font-size: av-font-size(header);
+  line-height: 145px;
+  font-weight: 300;
+  letter-spacing: -1.54px;
+}
+
+%av-headline2 {
+  font-size: av-font-size(giant);
+  line-height: 60px;
+  font-weight: 300;
+  letter-spacing: -0.48px;
+}
+
+%av-headline3 {
+  font-size: av-font-size(grand);
+  line-height: 0;
+}
+
+%av-headline4 {
+  font-size: av-font-size(x-large);
+  line-height: 51px;
+  letter-spacing: 0.26px;
+}
+
+%av-headline5 {
+  font-size: av-font-size(large);
+  line-height: 0;
+}
+
+%av-headline6 {
+  font-size: av-font-size(medium);
+  font-weight: 600;
+  line-height: 0;
+  letter-spacing: 0.15px;
+}
+
+%av-subtitle1 {
+  font-size: av-font-size();
+  font-weight: 700;
+  line-height: 0;
+  letter-spacing: 0.14px;
+}
+
+%av-subtitle2 {
+  font-size: av-font-size(small);
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0.1px;
+}
+
+%av-overline {
+  font-size: av-font-size(micro);
+  line-height: 0;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+}
+
+%av-caption {
+  font-size: av-font-size(tiny);
+  line-height: 16px;
+  letter-spacing: 0.4px;
+}
+
+%av-button {
+  font-size: av-font-size(small);
+  font-weight: 700;
+  line-height: 1.5;
+  letter-spacing: 1.34px;
+  text-transform: uppercase;
+}
