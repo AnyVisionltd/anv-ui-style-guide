@@ -38,12 +38,12 @@ import colors from '@anyvision/style-guide/abstracts/_colors.scss'
 ```
 
 ## fonts 
-## av-button : {
-#  fontSize: 14px,
-#  fontWeight: 700,
-#  lineHeight: 0px,
-#  textTransform: uppercase
-#  letterSpacing: 1.34px
+### av-button 
+###  fontSize: 14px,
+### fontWeight: 700,
+###  lineHeight: 0px,
+###  textTransform: uppercase
+###  letterSpacing: 1.34px
 "av-body1": {
   "fontSize": "16px",
   "fontWeight": 400,
