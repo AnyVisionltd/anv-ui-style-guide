@@ -44,5 +44,5 @@ The documentation is divided into several sections:
 * [Functions](docs/FUNCTIONS.md)
 * [Layout](docs/LAYOUT.md)
 * [Extensions](docs/EXTENSIONS.md)
-* [FONTS](docs/FONTS.md)
+* [Fonts](docs/FONTS.md)
 
