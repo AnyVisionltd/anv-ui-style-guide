@@ -38,6 +38,7 @@ import colors from '@anyvision/style-guide/abstracts/_colors.scss'
 ```
 
 ## fonts 
+```scss
 "av-button": {
   "fontSize": "14px",
   "fontWeight": 700,
@@ -116,6 +117,7 @@ import colors from '@anyvision/style-guide/abstracts/_colors.scss'
   "lineHeight": "24px",
   "letterSpacing": "0.1px",
 }
+```
 
 ## Documentation
 The documentation is divided into several sections:
