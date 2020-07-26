@@ -37,7 +37,6 @@ npm i @anyvision/style-guide --save
 import colors from '@anyvision/style-guide/abstracts/_colors.scss'
 ```
 
-
 ## Documentation
 The documentation is divided into several sections:
 
@@ -45,4 +44,5 @@ The documentation is divided into several sections:
 * [Functions](docs/FUNCTIONS.md)
 * [Layout](docs/LAYOUT.md)
 * [Extensions](docs/EXTENSIONS.md)
+* [Fonts](docs/FONTS.md)
 
