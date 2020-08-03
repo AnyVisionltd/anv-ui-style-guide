@@ -18,7 +18,7 @@ Import exported variables in thr JavaScript file -
 `import colors from '@anyvision/style-guide/abstracts/_colors.scss'` 
 
 #### Primary
-Used to display the main colors of thee application
+Used to display the main colors of the application
 - ![#3e7afc](https://placehold.it/15/3e7afc/000000?text=+) `primary` - `#3e7afc` `rgb(62, 122, 252)`
 - ![#02234b](https://placehold.it/15/02234b/000000?text=+) `secondary` - `#02234b` `rgb(2, 35, 75)`
 - ![#19e7fc](https://placehold.it/15/19e7fc/000000?text=+) `accent` - `#19e7fc` `rgb(25, 231, 252)`
@@ -33,6 +33,10 @@ Used for native styles like shadow and etc...
 Used in surfaces, Icons, Typography and any other UI elements
 - ![#02244d](https://placehold.it/15/fcfcff/000000?text=+) `surface` - `#fcfcff` `rgb(255, 254, 254)`
 - ![#fcfcff](https://placehold.it/15/021d3d/000000?text=+) `content` - `#021d3d` `rgb(2, 29, 61)`
+
+#### Overlay
+Used for elevation
+- ![#ffffff](https://placehold.it/15/ffffff/000000?text=+) `overlay` - `#ffffff` `rgb(255, 255, 255)`
 
 #### Status
 Used for showing the user the current status of a situation
