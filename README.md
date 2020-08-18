@@ -14,9 +14,10 @@ All you have to do now is just copy your new colors to you'r project and BOOM th
 1. [Installation](#installation)
 2. [Usage](#usage)
 3. [Functions & Mixins](#functions--mixins)
-4. [Override](#override)
-5. [Extensions](#extensions)
-6. [Utils](#utils)
+4. [Fonts](#fonts)
+5. [Override](#override)
+6. [Extensions](#extensions)
+7. [Utils](#utils)
 
 ## Installation
 Use the package manager npm.
