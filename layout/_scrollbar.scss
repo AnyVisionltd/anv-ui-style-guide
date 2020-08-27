@@ -9,6 +9,7 @@
     border-radius: av-radius(curvy);
     border: 7px solid rgba(0, 0, 0, 0);
     background-clip: padding-box;
+    height: 30px;
 
     &:hover {
       background: av-color(content, av-opacity(disabled));
