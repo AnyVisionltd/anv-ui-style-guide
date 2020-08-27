@@ -18,14 +18,14 @@
 
 %av-headline2 {
   font-size: av-font-size(giant);
-  line-height: 60px;
+  line-height: 90px;
   font-weight: 300;
   letter-spacing: -0.48px;
 }
 
 %av-headline3 {
   font-size: av-font-size(grand);
-  line-height: 0;
+  line-height: 72px;
 }
 
 %av-headline4 {
@@ -36,20 +36,20 @@
 
 %av-headline5 {
   font-size: av-font-size(large);
-  line-height: 0;
+  line-height: 35px;
 }
 
 %av-headline6 {
   font-size: av-font-size(medium);
   font-weight: 600;
-  line-height: 0;
+  line-height: 30px;
   letter-spacing: 0.15px;
 }
 
 %av-subtitle1 {
   font-size: av-font-size();
   font-weight: 700;
-  line-height: 0;
+  line-height: 25px;
   letter-spacing: 0.14px;
 }
 
@@ -62,7 +62,7 @@
 
 %av-overline {
   font-size: av-font-size(micro);
-  line-height: 0;
+  line-height: 16px;
   letter-spacing: 1.5px;
   text-transform: uppercase;
 }
@@ -76,7 +76,7 @@
 %av-button {
   font-size: av-font-size(small);
   font-weight: 700;
-  line-height: 1.5;
+  line-height: 19px;
   letter-spacing: 1.34px;
   text-transform: uppercase;
 }
