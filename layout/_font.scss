@@ -7,7 +7,7 @@
 %av-body2 {
   font-size: av-font-size(small);
   line-height: 22px;
-  letter-spacing: 0.24px;
+  letter-spacing: 0.25px;
 }
 %av-headline1 {
   font-size: av-font-size(header);
@@ -48,7 +48,7 @@
 
 %av-subtitle1 {
   font-size: av-font-size();
-  font-weight: 700;
+  font-weight: bold;
   line-height: 25px;
   letter-spacing: 0.14px;
 }
@@ -75,7 +75,7 @@
 
 %av-button {
   font-size: av-font-size(small);
-  font-weight: 700;
+  font-weight: bold;
   line-height: 19px;
   letter-spacing: 1.34px;
   text-transform: uppercase;
