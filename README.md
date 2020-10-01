@@ -50,6 +50,7 @@ and their default value.
 * [av-opacity](#av-opacity)
 * [av-size](#av-size)
 * [av-space](#av-space)
+* [av-z-index](#av-z-index)
 * [av-font-size](#av-font-size)
 * [av-font-weight](#av-font-weight)
 * [av-elevation](#av-elevation)
@@ -287,6 +288,30 @@ Dont:
   width: av-space(no-such-variable);// will throw compile error
 }
 ```
+<br/>
+
+### av-z-index
+this function will return relevant z-indexes.
+<br/>
+<br/>
+
+#### Values
+```
+  raised: 1,
+  navigation: 10,
+  popup: 20,
+  notification: 30,
+  important: 40
+```
+
+Do:
+
+```scss
+.my-class {
+  z-index: av-z-index(raised);
+}
+```
+
 <br/>
 
 ### av-font-size
