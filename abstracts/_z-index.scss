@@ -1,0 +1,18 @@
+$z-indexes: (
+  raised: 1,
+  navigation: 10,
+  popup: 20,
+  notification: 30,
+  important: 40
+) !default;
+
+@function av-z-index($key: base) {
+  @return var(set-as-var($key), get-number($z-indexes, $key));
+}
+
+// Set :export to share variables with JS
+:export {
+  @each $key, $value in $z-indexes {
+    #{$key}: $value;
+  }
+}
