@@ -7,6 +7,9 @@
     "type": "git",
     "url": "git+https://github.com/AnyVisionltd/anv-ui-style-guide.git"
   },
+  "scripts": {
+    "test-jenkins": "echo 'No Tests'"
+  },
   "author": "",
   "license": "ISC",
   "bugs": {
