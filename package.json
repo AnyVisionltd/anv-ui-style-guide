@@ -1,7 +1,7 @@
 {
   "name": "@anyvision/style-guide",
-  "version": "1.0.3-beta.0",
-  "description": "",
+  "version": "1.0.4-beta.0",
+  "description": "Anyvision Style Guide Library",
   "main": "index.scss",
   "repository": {
     "type": "git",
@@ -11,7 +11,7 @@
     "test-jenkins": "echo 'No Tests'"
   },
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/AnyVisionltd/anv-ui-style-guide/issues"
   },
