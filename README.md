@@ -556,15 +556,15 @@ to define new CSS variables.
 Do:
 ``` scss
 :root {
-  --primary: #{hexToRGBString(#3e7afc)};
-  --secondary: #{hexToRGBString(#02234b)};
+  --primary: #{hex-to-rgb-string(#3e7afc)};
+  --secondary: #{hex-to-rgb-string(#02234b)};
   --accent: 255, 255, 255;
   etc...
 }
 
 .my-theme {
-  --primary: #{hexToRGBString(#3e7afc)};
-  --secondary: #{hexToRGBString(#02234b)};
+  --primary: #{hex-to-rgb-string(#3e7afc)};
+  --secondary: #{hex-to-rgb-string(#02234b)};
   --accent: 255, 255, 255;
   etc...
 }
