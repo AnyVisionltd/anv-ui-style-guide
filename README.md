@@ -541,6 +541,17 @@ Dont:
 ## Override
 On this section you can see how to override the default values and theme CSS variables.
 
+### Set the default color system
+Import colors and set the css variables to defaults
+```scss
+@import '~@anyvision/style-guide';
+// Set default colors on :root element
+:root {
+  @each $key, $value in $color-palate {
+    #{set-as-var($key)}: unquote(hex-to-rgb-string($value));
+  }
+}
+```
 
 ### Override Theme
 Theme described with [Colors](VARIABLES.md#colors), [Spaces](VARIABLES.md#spaces) and [Border Radius](VARIABLES.md#radius).
