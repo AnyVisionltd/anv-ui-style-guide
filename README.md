@@ -66,45 +66,45 @@ In case of using the opacity parameter the color value will be as RGBA.
 #### Values
 ##### Primary
 Used to display the main colors of thee application
-`primary` - `#3e7afc` `rgb(62, 122, 252)`
-`secondary` - `#02234b` `rgb(2, 35, 75)`
-`accent` - `#19e7fc` `rgb(25, 231, 252)`
-`decorative` - `#f43aac` `rgb(244, 58, 172)`
+- ![#3e7afc](https://via.placeholder.com/15/3e7afc/000000?text=+) `primary` - `#3e7afc` `rgb(62, 122, 252)`
+- ![#02234b](https://via.placeholder.com/15/02234b/000000?text=+) `secondary` - `#02234b` `rgb(2, 35, 75)`
+- ![#19e7fc](https://via.placeholder.com/15/19e7fc/000000?text=+) `accent` - `#19e7fc` `rgb(25, 231, 252)`
+- ![#f43aac](https://via.placeholder.com/15/f43aac/000000?text=+) `decorative` - `#f43aac` `rgb(244, 58, 172)`
 
 ##### Native
 Used for native styles like shadow and etc...
-`purewhite` - `#ffffff` `rgb(255, 255, 255)`
-`trueblack` - `#010a14` `rgb(1, 10, 20)`
+- ![#ffffff](https://via.placeholder.com/15/ffffff/000000?text=+) `purewhite` - `#ffffff` `rgb(255, 255, 255)`
+- ![#010a14](https://via.placeholder.com/15/010a14/000000?text=+) `trueblack` - `#010a14` `rgb(1, 10, 20)`
 
 ##### Content
 Used in surfaces, Icons, Typography and any other UI elements
-`surface` - `#fcfcff` `rgb(255, 254, 254)`
-`content` - `#021d3d` `rgb(2, 29, 61)`
+- ![#02244d](https://via.placeholder.com/15/fcfcff/000000?text=+) `surface` - `#fcfcff` `rgb(255, 254, 254)`
+- ![#fcfcff](https://via.placeholder.com/15/021d3d/000000?text=+) `content` - `#021d3d` `rgb(2, 29, 61)`
 
 ##### Status
 Used for showing the user the current status of a situation
-`success` - `#00d0a0` `rgb(0, 208, 160)`
-`alert` - `#ffc400` `rgb(255, 196, 0)`
-`error` - `#d50000` `rgb(213, 0, 0)`
+- ![#00d0a0](https://via.placeholder.com/15/00d0a0/000000?text=+) `success` - `#00d0a0` `rgb(0, 208, 160)`
+- ![#ffc400](https://via.placeholder.com/15/ffc400/000000?text=+) `alert` - `#ffc400` `rgb(255, 196, 0)`
+- ![#d50000](https://via.placeholder.com/15/d50000/000000?text=+) `error` - `#d50000` `rgb(213, 0, 0)`
 
 ##### Additional
 Used for content differentiate (charts, watch lists, avatars...)
-`ac-sirius` - `#55efc4` `rgb(85, 239, 196)`
-`ac-earth` - `#00b894` `rgb(0, 184, 148)`
-`ac-procyon` - `#ffeaa7` `rgb(255, 234, 167)`
-`ac-sun` - `#fdcb6e` `rgb(253, 203, 110)`
-`ac-canopus` - `#81ecec` `rgb(129, 236, 236)`
-`ac-achernar` - `#00cec9` `rgb(0, 206, 201)`
-`ac-altair` - `#fab1a0` `rgb(250, 177, 160)`
-`ac-antares` - `#e17055` `rgb(225, 112, 85)`
-`ac-vega` - `#74b9ff` `rgb(116, 185, 255)`
-`ac-betelgeuse` - `#0984e3` `rgb(9, 132, 227)`
-`ac-aldebaran` - `#ff7675` `rgb(255, 118, 117)`
-`ac-pollux` - `#d63031` `rgb(214, 48, 49)`
-`ac-rigel` - `#a29bfe` `rgb(162, 155, 254)`
-`ac-agena` - `#6c5ce7` `rgb(108, 92, 231)`
-`ac-spica` - `#fd79a8` `rgb(253, 121, 168)`
-`ac-mimosa` - `#e84393` `rgb(232, 67, 147)`
+- ![#55efc4](https://via.placeholder.com/15/55efc4/000000?text=+) `ac-sirius` - `#55efc4` `rgb(85, 239, 196)`
+- ![#00b894](https://via.placeholder.com/15/00b894/000000?text=+) `ac-earth` - `#00b894` `rgb(0, 184, 148)`
+- ![#ffeaa7](https://via.placeholder.com/15/ffeaa7/000000?text=+) `ac-procyon` - `#ffeaa7` `rgb(255, 234, 167)`
+- ![#fdcb6e](https://via.placeholder.com/15/fdcb6e/000000?text=+) `ac-sun` - `#fdcb6e` `rgb(253, 203, 110)`
+- ![#81ecec](https://via.placeholder.com/15/81ecec/000000?text=+) `ac-canopus` - `#81ecec` `rgb(129, 236, 236)`
+- ![#00cec9](https://via.placeholder.com/15/00cec9/000000?text=+) `ac-achernar` - `#00cec9` `rgb(0, 206, 201)`
+- ![#fab1a0](https://via.placeholder.com/15/fab1a0/000000?text=+) `ac-altair` - `#fab1a0` `rgb(250, 177, 160)`
+- ![#e17055](https://via.placeholder.com/15/e17055/000000?text=+) `ac-antares` - `#e17055` `rgb(225, 112, 85)`
+- ![#74b9ff](https://via.placeholder.com/15/74b9ff/000000?text=+) `ac-vega` - `#74b9ff` `rgb(116, 185, 255)`
+- ![#0984e3](https://via.placeholder.com/15/0984e3/000000?text=+) `ac-betelgeuse` - `#0984e3` `rgb(9, 132, 227)`
+- ![#ff7675](https://via.placeholder.com/15/ff7675/000000?text=+) `ac-aldebaran` - `#ff7675` `rgb(255, 118, 117)`
+- ![#d63031](https://via.placeholder.com/15/d63031/000000?text=+) `ac-pollux` - `#d63031` `rgb(214, 48, 49)`
+- ![#a29bfe](https://via.placeholder.com/15/a29bfe/000000?text=+) `ac-rigel` - `#a29bfe` `rgb(162, 155, 254)`
+- ![#6c5ce7](https://via.placeholder.com/15/6c5ce7/000000?text=+) `ac-agena` - `#6c5ce7` `rgb(108, 92, 231)`
+- ![#fd79a8](https://via.placeholder.com/15/fd79a8/000000?text=+) `ac-spica` - `#fd79a8` `rgb(253, 121, 168)`
+- ![#e84393](https://via.placeholder.com/15/e84393/000000?text=+) `ac-mimosa` - `#e84393` `rgb(232, 67, 147)`
 
 
 Do:
