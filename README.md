@@ -66,45 +66,45 @@ In case of using the opacity parameter the color value will be as RGBA.
 #### Values
 ##### Primary
 Used to display the main colors of thee application
-- ![#3e7afc](https://placehold.it/15/3e7afc/000000?text=+) `primary` - `#3e7afc` `rgb(62, 122, 252)`
-- ![#02234b](https://placehold.it/15/02234b/000000?text=+) `secondary` - `#02234b` `rgb(2, 35, 75)`
-- ![#19e7fc](https://placehold.it/15/19e7fc/000000?text=+) `accent` - `#19e7fc` `rgb(25, 231, 252)`
-- ![#f43aac](https://placehold.it/15/f43aac/000000?text=+) `decorative` - `#f43aac` `rgb(244, 58, 172)`
+`primary` - `#3e7afc` `rgb(62, 122, 252)`
+`secondary` - `#02234b` `rgb(2, 35, 75)`
+`accent` - `#19e7fc` `rgb(25, 231, 252)`
+`decorative` - `#f43aac` `rgb(244, 58, 172)`
 
 ##### Native
 Used for native styles like shadow and etc...
-- ![#ffffff](https://placehold.it/15/ffffff/000000?text=+) `purewhite` - `#ffffff` `rgb(255, 255, 255)`
-- ![#010a14](https://placehold.it/15/010a14/000000?text=+) `trueblack` - `#010a14` `rgb(1, 10, 20)`
+`purewhite` - `#ffffff` `rgb(255, 255, 255)`
+`trueblack` - `#010a14` `rgb(1, 10, 20)`
 
 ##### Content
 Used in surfaces, Icons, Typography and any other UI elements
-- ![#02244d](https://placehold.it/15/fcfcff/000000?text=+) `surface` - `#fcfcff` `rgb(255, 254, 254)`
-- ![#fcfcff](https://placehold.it/15/021d3d/000000?text=+) `content` - `#021d3d` `rgb(2, 29, 61)`
+`surface` - `#fcfcff` `rgb(255, 254, 254)`
+`content` - `#021d3d` `rgb(2, 29, 61)`
 
 ##### Status
 Used for showing the user the current status of a situation
-- ![#00d0a0](https://placehold.it/15/00d0a0/000000?text=+) `success` - `#00d0a0` `rgb(0, 208, 160)`
-- ![#ffc400](https://placehold.it/15/ffc400/000000?text=+) `alert` - `#ffc400` `rgb(255, 196, 0)`
-- ![#d50000](https://placehold.it/15/d50000/000000?text=+) `error` - `#d50000` `rgb(213, 0, 0)`
+`success` - `#00d0a0` `rgb(0, 208, 160)`
+`alert` - `#ffc400` `rgb(255, 196, 0)`
+`error` - `#d50000` `rgb(213, 0, 0)`
 
 ##### Additional
 Used for content differentiate (charts, watch lists, avatars...)
-- ![#55efc4](https://placehold.it/15/55efc4/000000?text=+) `ac-sirius` - `#55efc4` `rgb(85, 239, 196)`
-- ![#00b894](https://placehold.it/15/00b894/000000?text=+) `ac-earth` - `#00b894` `rgb(0, 184, 148)`
-- ![#ffeaa7](https://placehold.it/15/ffeaa7/000000?text=+) `ac-procyon` - `#ffeaa7` `rgb(255, 234, 167)`
-- ![#fdcb6e](https://placehold.it/15/fdcb6e/000000?text=+) `ac-sun` - `#fdcb6e` `rgb(253, 203, 110)`
-- ![#81ecec](https://placehold.it/15/81ecec/000000?text=+) `ac-canopus` - `#81ecec` `rgb(129, 236, 236)`
-- ![#00cec9](https://placehold.it/15/00cec9/000000?text=+) `ac-achernar` - `#00cec9` `rgb(0, 206, 201)`
-- ![#fab1a0](https://placehold.it/15/fab1a0/000000?text=+) `ac-altair` - `#fab1a0` `rgb(250, 177, 160)`
-- ![#e17055](https://placehold.it/15/e17055/000000?text=+) `ac-antares` - `#e17055` `rgb(225, 112, 85)`
-- ![#74b9ff](https://placehold.it/15/74b9ff/000000?text=+) `ac-vega` - `#74b9ff` `rgb(116, 185, 255)`
-- ![#0984e3](https://placehold.it/15/0984e3/000000?text=+) `ac-betelgeuse` - `#0984e3` `rgb(9, 132, 227)`
-- ![#ff7675](https://placehold.it/15/ff7675/000000?text=+) `ac-aldebaran` - `#ff7675` `rgb(255, 118, 117)`
-- ![#d63031](https://placehold.it/15/d63031/000000?text=+) `ac-pollux` - `#d63031` `rgb(214, 48, 49)`
-- ![#a29bfe](https://placehold.it/15/a29bfe/000000?text=+) `ac-rigel` - `#a29bfe` `rgb(162, 155, 254)`
-- ![#6c5ce7](https://placehold.it/15/6c5ce7/000000?text=+) `ac-agena` - `#6c5ce7` `rgb(108, 92, 231)`
-- ![#fd79a8](https://placehold.it/15/fd79a8/000000?text=+) `ac-spica` - `#fd79a8` `rgb(253, 121, 168)`
-- ![#e84393](https://placehold.it/15/e84393/000000?text=+) `ac-mimosa` - `#e84393` `rgb(232, 67, 147)`
+`ac-sirius` - `#55efc4` `rgb(85, 239, 196)`
+`ac-earth` - `#00b894` `rgb(0, 184, 148)`
+`ac-procyon` - `#ffeaa7` `rgb(255, 234, 167)`
+`ac-sun` - `#fdcb6e` `rgb(253, 203, 110)`
+`ac-canopus` - `#81ecec` `rgb(129, 236, 236)`
+`ac-achernar` - `#00cec9` `rgb(0, 206, 201)`
+`ac-altair` - `#fab1a0` `rgb(250, 177, 160)`
+`ac-antares` - `#e17055` `rgb(225, 112, 85)`
+`ac-vega` - `#74b9ff` `rgb(116, 185, 255)`
+`ac-betelgeuse` - `#0984e3` `rgb(9, 132, 227)`
+`ac-aldebaran` - `#ff7675` `rgb(255, 118, 117)`
+`ac-pollux` - `#d63031` `rgb(214, 48, 49)`
+`ac-rigel` - `#a29bfe` `rgb(162, 155, 254)`
+`ac-agena` - `#6c5ce7` `rgb(108, 92, 231)`
+`ac-spica` - `#fd79a8` `rgb(253, 121, 168)`
+`ac-mimosa` - `#e84393` `rgb(232, 67, 147)`
 
 
 Do:
@@ -127,6 +127,47 @@ Dont:
 .my-other-class {
   color: av-color(no-such-variable);// will throw compile error
 }
+```
+
+Use Color Classes:
+```html
+<div className="text-primary ..."></div>
+<div className="bg-primary ..."></div>
+<div className="bg-secondary ..."></div>
+<div className="bg-accent ..."></div>
+<div className="bg-decorative ..."></div>
+<div className="bg-purewhite ..."></div>
+<div className="bg-trueblack ..."></div>
+<div className="bg-surface ..."></div>
+<div className="bg-content ..."></div>
+<div className="bg-success ..."></div>
+<div className="bg-alert ..."></div>
+<div className="bg-error ..."></div>
+<div className="bg-sirius ..."></div>
+<div className="bg-earth ..."></div>
+<div className="bg-procyon ..."></div>
+<div className="bg-sun ..."></div>
+<div className="bg-canopus ..."></div>
+<div className="bg-achernar ..."></div>
+<div className="bg-altair ..."></div>
+<div className="bg-antares ..."></div>
+<div className="bg-vega ..."></div>
+<div className="bg-betelgeuse ..."></div>
+<div className="bg-aldebaran ..."></div>
+<div className="bg-pollux ..."></div>
+<div className="bg-rigel ..."></div>
+<div className="bg-agena ..."></div>
+<div className="bg-spica ..."></div>
+```
+
+Use Color with Styled Components
+```tsx
+import tw from "tailwind-styled-components"
+
+const StyledText = tw.div`
+  text-primary
+  bg-purewhite
+`
 ```
 
 ### av-radius
@@ -170,6 +211,32 @@ Dont:
 ```
 <br/>
 
+Use Radius Classes:
+```html
+<!-- tidy 4px 0.25rem -->
+<div className="rounded ..."></div>
+
+<!-- base 8px 0.5rem -->
+<div className="rounded-lg ..."></div> 
+
+<!-- round 16px 1rem -->
+<div className="rounded-2xl ..."></div> 
+
+<!-- curvy 24px 1.5rem -->
+<div className="rounded-3xl ..."></div> 
+
+```
+
+Use Radius with Styled Components
+```tsx
+import tw from "tailwind-styled-components"
+
+const StyledText = tw.div`
+  rounded
+`
+```
+
+
 ### av-opacity
 This function will return the opacity number value of the given parameter as CSS variable.
 <br/>
@@ -198,6 +265,26 @@ Dont:
   opacity: av-opacity(no-such-variable);// will throw compile error
 }
 ```
+
+Use Opacity Classes:
+```html
+<div className="opacity-high ..."></div>
+<div className="opacity-medium ..."></div>
+<div className="opacity-disabled ..."></div>
+<div className="opacity-divider ..."></div>
+<div className="opacity-ghost ..."></div>
+```
+
+Use Opacity with Styled Components
+```tsx
+import tw from "tailwind-styled-components"
+
+const StyledText = tw.div`
+  opacity-disabled
+`
+```
+
+
 <br/>
 
 ### av-size
@@ -247,6 +334,53 @@ Dont:
 }
 ```
 <br/>
+
+Use Size Classes:
+```html
+<!-- width -->
+<div className="w-4 ..."></div>
+<div className="w-8 ..."></div>
+<div className="w-16 ..."></div>
+<div className="w-24 ..."></div>
+<div className="w-32 ..."></div>
+<div className="w-40 ..."></div>
+<div className="w-48 ..."></div>
+<div className="w-56 ..."></div>
+<div className="w-64 ..."></div>
+<div className="w-80 ..."></div>
+<div className="w-96 ..."></div>
+<div className="w-144 ..."></div>
+<div className="w-240 ..."></div>
+<div className="w-320 ..."></div>
+<div className="w-480 ..."></div>
+<div className="w-640 ..."></div>
+<div className="w-960 ..."></div>
+
+
+<!-- min-width -->
+<div className="min-w-16 ..."></div>
+<!-- max-width -->
+<div className="max-w-16 ..."></div>
+<!-- height -->
+<div className="h-16 ..."></div>
+
+<!-- padding -->
+<div className="p-16 ..."></div>
+<!-- padding x axis (left, right) -->
+<div className="px-16 ..."></div>
+<!-- padding y axis (top, bottom) -->
+<div className="py-16 ..."></div>
+
+<!-- margin -->
+<div className="m-16 ..."></div>
+
+<div className="flex space-x-16 ...">
+  <div>01</div>
+  <div>02</div>
+  <div>03</div>
+</div>
+
+```
 
 ### av-space
 This variables are manage to display the relevant `margin` or `padding` as needed.
@@ -312,6 +446,15 @@ Do:
 }
 ```
 
+Use Z-Index Classes:
+```html
+<div className="z-raised ..."></div>
+<div className="z-navigation ..."></div>
+<div className="z-popup ..."></div>
+<div className="z-notification ..."></div>
+<div className="z-important ..."></div>
+```
+
 <br/>
 
 ### av-font-size
@@ -331,7 +474,7 @@ large: 24,
 x-large: 32,
 grand: 48,
 giant: 60,
-header: 96
+header: 96,
 ```
 
 Do:
@@ -353,6 +496,32 @@ Dont:
  font-size: av-font-size(no-such-variable);// will throw compile error
 }
 ```
+
+
+
+
+
+
+
+
+
+
+Use Font Size Classes:
+```html
+<p className="text-micro ...">The quick brown fox ...</p>  <!-- 10px -->
+<p className="text-tiny ...">The quick brown fox ...</p> <!-- 12px -->
+<p className="text-sm ...">The quick brown fox ...</p> <!-- 14px -->
+<p className="text-base ...">The quick brown fox ...</p> <!-- 16px -->
+<p className="text-md ...">The quick brown fox ...</p> <!-- 20px -->
+<p className="text-lg ...">The quick brown fox ...</p> <!-- 24px -->
+<p className="text-xl ...">The quick brown fox ...</p> <!-- 32px -->
+<p className="text-2xl ...">The quick brown fox ...</p> <!-- 48px -->
+<p className="text-3xl ...">The quick brown fox ...</p> <!-- 60px -->
+<p className="text-header ...">The quick brown fox ...</p> <!-- 96px -->
+```
+
+
+
 <br/>
 
 ### av-font-weight
@@ -386,6 +555,13 @@ Dont:
 .my-class {
  font-weight: av-font-weight(no-such-variable);// will throw compile error
 }
+```
+
+Use Font Weight Classes:
+```html
+<p className="font-light ...">The quick brown fox ...</p> <!-- 300 -->
+<p className="font-normal ...">The quick brown fox ...</p> <!-- 400 -->
+<p className="font-bold ...">The quick brown fox ...</p> <!-- 700 -->
 ```
 
 ### av-elevation
@@ -441,6 +617,16 @@ Dont:
  letterSpacing: 1.34px;
 ```
 
+```tsx
+const StyledButton = tw.button`
+  text-sm
+  font-bold
+  leading-[0px]
+  uppercase
+  tracking-[1.34px]
+`
+```
+
 #### av-body1
 ```
  fontSize: 16px;
@@ -449,6 +635,14 @@ Dont:
  letterSpacing: 0.44px;
 ```
 
+```tsx
+const StyledBody1 = tw.span`
+  text-base
+  font-normal
+  leading-[24px]
+  tracking-[0.44px]
+`
+```
 
 #### av-body2
 ```
@@ -456,6 +650,15 @@ Dont:
  fontWeight: 400;
  lineHeight: 22px;
  letterSpacing: 0.24px;
+```
+
+```tsx
+const StyledBody2 = tw.span`
+  text-sm
+  font-normal
+  leading-[22px]
+  tracking-[0.24px]
+`
 ```
 
 #### av-caption
@@ -466,12 +669,30 @@ Dont:
  letterSpacing: 0.4px;
 ```
 
+```tsx
+const StyledCaption = tw.span`
+  text-tiny
+  font-normal
+  leading-[16px]
+  tracking-[0.4px]
+`
+```
+
 #### av-headline1
 ```
  fontSize: 96px;
  fontWeight: 300;
  lineHeight: 145px;
  letterSpacing: -1.54px;
+```
+
+```tsx
+const StyledH1 = tw.span`
+  text-header
+  font-light
+  leading-[145px]
+  tracking-[-1.54px]
+`
 ```
 
 #### av-headline2
@@ -482,12 +703,29 @@ Dont:
  letterSpacing: -0.48px;
 ```
 
+```tsx
+const StyledH2 = tw.span`
+  text-3xl
+  font-light
+  leading-[90px]
+  tracking-[-0.48px]
+`
+```
+
 #### av-headline3
 ```
  fontSize: 48px;
  fontWeight: 400;
  lineHeight: 0;
 ```  
+
+```tsx
+const StyledH3 = tw.span`
+  text-2xl
+  font-normal
+  leading-[0]
+`
+```
 
 #### av-headline4
 ```
@@ -497,11 +735,28 @@ Dont:
  letterSpacing: 0.26x;
 ```
 
+```tsx
+const StyledH4 = tw.span`
+  text-xl
+  font-normal
+  leading-[51px]
+  tracking-[0.26px]
+`
+```
+
 #### av-headline5
 ```
  fontSize: 24px;
  fontWeight: 400;
  lineHeight: 0;
+```
+
+```tsx
+const StyledH5 = tw.span`
+  text-lg
+  font-normal
+  leading-[0]
+`
 ```
 
 #### av-headline6
@@ -510,6 +765,15 @@ Dont:
  fontWeight: 600;
  lineHeight: 0;
  letterSpacing: 0.15x;
+```
+
+```tsx
+const StyledH6 = tw.span`
+  text-md
+  font-semibold
+  leading-[0]
+  tracking-[0.15px]
+`
 ```
 
 #### av-overline
@@ -521,6 +785,16 @@ Dont:
  textTransform: uppercase;
 ```
 
+```tsx
+const StyledOverline = tw.span`
+  text-micro
+  font-normal
+  leading-[0]
+  tracking-[1.5px]
+  uppercase
+`
+```
+
 #### av-subtitle1
 ```
  fontSize: 16px;
@@ -529,13 +803,34 @@ Dont:
  letterSpacing: 1.14px;
 ```
 
-#### av-subtitle1
+```tsx
+const StyledSubtitle1 = tw.span`
+  text-base
+  font-bold
+  leading-[0]
+  tracking-[1.14px]
+`
+```
+
+#### av-subtitle2
 ```
  fontSize: 14px
  fontWeight: 600
  lineHeight: 24px
  letterSpacing: 0.1px
 ```
+
+```tsx
+const StyledSubtitle2 = tw.span`
+  text-sm
+  font-semibold
+  leading-[24px]
+  tracking-[0.1px]
+`
+```
+
+
+
 
 
 ## Override
