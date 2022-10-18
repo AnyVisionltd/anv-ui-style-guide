@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/AnyVisionltd/anv-ui-style-guide#readme",
   "dependencies": {
-    "node-sass": "^4.13.1",
+    "node-sass": "^7.0.0",
     "normalize.css": "^8.0.1"
   }
 }
