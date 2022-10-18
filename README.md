@@ -84,6 +84,7 @@ Used in surfaces, Icons, Typography and any other UI elements
 ##### Status
 Used for showing the user the current status of a situation
 - ![#00d0a0](https://via.placeholder.com/15/00d0a0/000000?text=+) `success` - `#00d0a0` `rgb(0, 208, 160)`
+- ![#13723D](https://via.placeholder.com/15/00d0a0/000000?text=+) `success-dark` - `#13723D` `rgb(19, 114, 61),`
 - ![#ffc400](https://via.placeholder.com/15/ffc400/000000?text=+) `alert` - `#ffc400` `rgb(255, 196, 0)`
 - ![#d50000](https://via.placeholder.com/15/d50000/000000?text=+) `error` - `#d50000` `rgb(213, 0, 0)`
 

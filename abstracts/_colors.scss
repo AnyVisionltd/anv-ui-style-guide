@@ -16,6 +16,7 @@ $color-palate: (
   overlay: #ffffff,
   // Status Colors
   success: #00d0a0,
+  success-dark: #13723D,
   alert: #ffc400,
   error: #d50000,
   // Additional Colors
@@ -35,6 +36,7 @@ $color-palate: (
   ac-agena: #6c5ce7,
   ac-spica: #fd79a8,
   ac-mimosa: #e84393
+  
 ) !default;
 
 // This function will manage to return a color by given key.
